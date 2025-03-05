@@ -44,3 +44,23 @@ fruits = ['apple', 'banana', 'cherry']
 fruits.remove("banana")
 print(fruits)
 
+
+fruits = ['apple', 'banana', 'cherry']
+
+fruits.reverse()
+print(fruits)
+
+
+cars=['Ford','Bmw','volvo']
+cars.sort(reverse=True)
+print(cars)
+"""
+#A function that returns the length of the value
+
+def myFunc(e):
+    return len(e)
+
+cars = ['Ford', 'Mistubishi', 'BMW', 'VW']
+cars.sort(key=myFunc)  # ফাংশনকে পাস করতে হবে, কল করা যাবে না।
+
+print(cars)
