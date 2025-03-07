@@ -1,3 +1,4 @@
+"""
 fruits={"apple","banana","cherry"}
 
 fruits.add("orange")
@@ -77,3 +78,17 @@ result = x.union(y, z)
 
 print(result)
 
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+
+x.update(y)
+print(x)
+"""
+
+x = {"apple", "banana", "cherry"}
+y = {"google", "microsoft", "apple"}
+z = {"cherry", "micra", "bluebird"}
+
+x|=y|z
+print(x)
