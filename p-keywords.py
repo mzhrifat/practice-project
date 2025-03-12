@@ -8,7 +8,6 @@ if 5>3 and 5<10:
 else:
     print("At least one of the statements are False")
 
-
 import calendar as c
 print(c.month_name[6])
 
@@ -38,12 +37,10 @@ class Person:
 p1 = Person()
 print(name)
 
-
 for i in range(9):
     if i == 3:
         continue
         print(i)
-
 
 i=0
 while i<9:
@@ -52,17 +49,65 @@ while i<9:
         continue
         print(i)
 
-
 def my_function():
     print("Hello from a function")
 my_function()
 
-
 x ="hello"
 del x
 print(x)
-"""
+
 
 x= ["apple","banana","cherry"]
 del x[0]
 print(x)
+
+
+for i in range (-5,5):
+    if i>0:
+        print("YES")
+    elif i == 0:
+      print("WHATEVER")
+    else:
+       print('NO')
+
+
+x = 2
+if x >3 :
+    print("yes")
+else:
+    print("No")
+
+x=5
+try:
+    x>10
+except:
+    print ("Somrething went wrong")
+else:
+    print("The 'Try' code was executed without raising any errors!")
+"""
+
+x= "hello"
+
+try:
+    x>3
+except NameError:
+    print("You have a variable that is not defined.")
+except TypeError:
+    print("You have comparing of different type")
+
+
+
+x= 1
+
+try:
+    x>10
+except NameError:
+    print("You have a variable that is not defined.")
+except TypeError:
+    print("You have comparing of different type")
+else:
+    print ("The 'Try' code was executed without raising any errors!")
+finally:
+    print("The try...except block is finished")
+
