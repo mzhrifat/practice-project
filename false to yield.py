@@ -62,7 +62,7 @@ def myfunction():
 
 myfunction()
 print(x)
-"""
+
 
 x=5
 if x > 8:
@@ -87,3 +87,21 @@ x= ["apple","banana","cherry","graps"]
 
 y =["apple","banana","cherry","graps"]
 print(x is y)
+
+
+x=0
+while x<9:
+    print(x)
+    x=x+1
+"""
+
+def myFunc():
+    yield "Hello"
+    yield 51
+    yield  "Good Bye"
+
+x=myFunc()
+
+for z in x:
+    print(z)
+
