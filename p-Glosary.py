@@ -26,7 +26,7 @@ a="hello"
 b="world"
 x=a+b
 print(x)
-"""
+
 #Global variables
 x="awesome"
 
@@ -41,3 +41,27 @@ def myfunc():
 myfunc()
 
 print("Python is "+ x)
+
+#Python RegEx Special Sequences
+
+
+import re
+txt="The rain in Spain"
+
+#Check if "ain" is present  at the end of a word:
+
+x=re.findall(r"ain\b",txt)
+
+print(x)
+
+if x:
+    print("Yes,There is a last one match!")
+else:
+    print("No Match")
+
+x=-1
+if x < 0:
+   raise Exception("Sorry, no numbers below zero")
+"""
+x=5
+print(not(x>3 and x<10))
