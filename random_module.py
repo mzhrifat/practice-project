@@ -6,7 +6,7 @@ print(random.random())
 
 import random
 print(random.getstate())
-"""
+
 
 import random
 #print a random number:
@@ -23,3 +23,7 @@ random.setstate(state)
 
 #and the next random number should be the same as when you capture the state:
 print(random.random())
+"""
+
+import random
+print(random.triangular(20,60,30))
