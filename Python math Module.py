@@ -7,7 +7,7 @@ print(math.factorial(9))
 print(math.factorial(6))
 print(math.factorial(12))
 
-"""
+
 
 import math
 from tokenize import maybe
@@ -16,3 +16,7 @@ from tokenize import maybe
 
 print(math.lgamma(7))
 print(math.lgamma(-4.5))
+"""
+import math
+
+print(math.tau)
