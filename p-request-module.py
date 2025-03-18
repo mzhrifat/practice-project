@@ -19,9 +19,18 @@ import requests
 x = requests.get('https://w3school.com',)
 
 print(x.status_code)
-"""
+
 
 import requests
 x=requests.head('https://www.w3schools.com/python/demopage.php')
 
 print(x.headers)
+
+import requests
+url='https://www.w3schools.com/python/demopage.php'
+myobj={'smokey':'somevalue'}
+
+x=requests.post(url,json=myobj)
+print(x.text)
+
+"""
