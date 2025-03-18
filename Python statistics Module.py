@@ -33,10 +33,20 @@ print(statistics.median_grouped([1, 2, 3, 4, 5]))
 print(statistics.median_grouped([1, 2, 3, 4], 2))
 print(statistics.median_grouped([1, 2, 3, 4], 3))
 print(statistics.median_grouped([1, 2, 3, 4], 5))
-"""
+
 import statistics
 
 #calculate the mode
 print(statistics.mode([1, 3, 3, 3, 5, 7, 7 ,9, 11]))
 print(statistics.mode([1, 1, 3, -5, 7, -9, 11]))
 print(statistics.mode(['red', 'green', 'blue', 'red']))
+"""
+
+import statistics
+
+#calculate the standard deviation from an entire population
+
+print(statistics.pstdev([1,3,5,7,9,11]))
+print(statistics.pstdev([2, 2.5, 1.25, 3.1, 1.75, 2.8]))
+print(statistics.pstdev([-11, 5.5, -3.4, 7.1]))
+print(statistics.pstdev([1, 30, 50, 100]))
