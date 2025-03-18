@@ -1,4 +1,4 @@
-
+"""
 #Import math Library
 import math
 
@@ -6,3 +6,13 @@ import math
 print(math.factorial(9))
 print(math.factorial(6))
 print(math.factorial(12))
+
+"""
+
+import math
+from tokenize import maybe
+
+#Return the log gamma value of different numbers:
+
+print(math.lgamma(7))
+print(math.lgamma(-4.5))
