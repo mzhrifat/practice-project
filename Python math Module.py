@@ -27,7 +27,7 @@ import cmath
 z = 1 + 1j
 result=cmath.polar(z)
 print(result)
-"""
+
 
 import cmath
 
@@ -35,3 +35,7 @@ import cmath
 
 result=cmath.rect(1,cmath.pi/4)
 print(result)
+"""
+
+fruits=["APPle","cherry"]
+print(fruits)
