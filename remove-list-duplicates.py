@@ -8,7 +8,7 @@ def my_function(x):
 
 mylist=my_function(["a","b","c","a","b","c"])
 print(mylist)
-"""
+
 #reverse a string in python
 
 txt="hello"[::-1]
@@ -20,3 +20,12 @@ def my_function(x):
 mytxt=my_function("I wonder how this text looks like backwards")
 
 print(mytxt)
+
+"""
+#How to Add Two Numbers in Python
+
+x=input("5")
+y=input("8")
+
+sum=input(x)+input(y)
+print("The sum is :",sum)
