@@ -41,7 +41,4 @@ fruits=["APPle","cherry"]
 print(fruits
 
 
-1
-2
-3
-3
+
