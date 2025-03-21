@@ -20,10 +20,17 @@ print(c.replace("E","I"))
 x=46
 y=4
 print(x%y)
-"""
+
 #Delete this tuple
 
 thistuple=("apple","orange","mango")
 del thistuple
 print (thistuple)
+"""
 
+a=33
+b=33
+if b>a:
+    print("b is grerater than a")
+elif a==b:
+    print("a and b are equal")
