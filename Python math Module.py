@@ -38,4 +38,10 @@ print(result)
 """
 
 fruits=["APPle","cherry"]
-print(fruits)
+print(fruits
+
+
+1
+2
+3
+3
